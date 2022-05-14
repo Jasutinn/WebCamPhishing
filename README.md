@@ -1,9 +1,9 @@
 ## Beta Version 1.5 
 
 ### © 
-* Copyright of Justine Dela Torre (Jasutin)
+Copyright of Justine Dela Torre (Jasutin)
 
-# WebCamPhishing
+# WebCamPhish
 Bypassing camera on any device using a php server and javascript for client-side.
 
 # What is WebCamPhishing?
@@ -28,13 +28,13 @@ Bypassing camera on any device using a php server and javascript for client-side
 </ul>
 
 # Installing and requirements
-<p>This tool require PHP for webserver, SSH or serveo link. First run following command on your terminal</p>
+<p>This tool require PHP for webserver, SSH or Serveo link. First run following command on your terminal</p>
 
 ```
 sudo apt -y install php openssh git wget unzip
 ```
 
-## Installing (Kali Linux/Termux):
+## Follow the command to use the module:
 
 ```
 git clone https://github.com/jasut1n/WebCamPhishing
@@ -49,6 +49,7 @@ chmod +x webcamphish.sh
 <p><b>Version: 1.4:</b> Ngrok authtoken update</p>
 <p><b>Version: 1.3:</b> Fix ngrok direct link</p>
 
-#### For More Video subcribe <a href="http://youtube.com/jasut1n">Justine Dela Torre YouTube Channel</a>
+#### Credits
+
 <p>WebCamPhishing is created to help in penetration testing and ethical hacking it's not responsible for any misuse or illegal purposes.</p>
 <p>WebCamPhishing is inspired by https://github.com/thelinuxchoice/ and https://github.com/techchipnet/ Big thanks to @thelinuxchoice and @techchip</p>
