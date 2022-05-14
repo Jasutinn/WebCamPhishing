@@ -1,8 +1,4 @@
-## Beta Version 1.5 
-
-### © 
-Copyright of Justine Dela Torre (Jasutin)
-
+## Version 1.5 [Beta]
 # WebCamPhish
 Bypassing camera on any device using a php server and javascript for client-side.
 
@@ -53,3 +49,6 @@ chmod +x webcamphish.sh
 
 <p>WebCamPhishing is created to help in penetration testing and ethical hacking it's not responsible for any misuse or illegal purposes.</p>
 <p>WebCamPhishing is inspired by https://github.com/thelinuxchoice/ and https://github.com/techchipnet/ Big thanks to @thelinuxchoice and @techchip</p>
+
+## ©
+Copyright of Justine Dela Torre (Jasutin)
