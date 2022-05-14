@@ -48,7 +48,7 @@ chmod +x webcamphish.sh
 <p><b>Version: 1.4:</b> Ngrok authtoken update</p>
 <p><b>Version: 1.3:</b> Fix ngrok direct link</p>
 
-#### Credits
+### Credits
 
 <p>WebCamPhishing is created to help in penetration testing and ethical hacking it's not responsible for any misuse or illegal purposes.</p>
 <p>WebCamPhishing is inspired by https://github.com/thelinuxchoice/ and https://github.com/techchipnet/ Big thanks to @thelinuxchoice and @techchip</p>
