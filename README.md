@@ -53,9 +53,7 @@ chmod +x webcamphish.sh
 <p>WebCamPhishing is created to help in penetration testing and ethical hacking it's not responsible for any misuse or illegal purposes.</p>
 <p>WebCamPhishing is inspired by https://github.com/thelinuxchoice/ and https://github.com/techchipnet/ Big thanks to @thelinuxchoice and @techchip</p>
 
-#
 ## ©
 Copyright of Justine Dela Torre (Jasutin)
-
-#### This webcamphishing module/script is based only on my knowledge,
-#### and please use this only on penetrating testing and educational purposes.
+### This webcamphishing module/script is based only on my knowledge,
+### and please use this only on penetrating testing and educational purposes.
