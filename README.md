@@ -1,5 +1,5 @@
-#### Version 1.5 [Beta]
 # WebCamPhish
+* Version 1.5 [Beta]
 Bypassing camera on any device using a php server and javascript for client-side.
 
 # What is WebCamPhishing?
