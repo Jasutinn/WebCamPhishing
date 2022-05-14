@@ -240,7 +240,7 @@ sed 's+live_yt_tv+'$yt_video_ID'+g' index0.html > index2.html
 else
 sed 's+forwarding_link+'$link'+g' meeting.html > index2.html
 fi
-rm -rf index2.html
+rm -rf index0.html
 
 }
 
@@ -387,7 +387,7 @@ else
 sed 's+forwarding_link+'$link'+g' meeting.html > index0.html
 sed 's+live_yt_tv+'$yt_video_ID'+g' index0.html > index2.html
 fi
-rm -rf index2.html
+rm -rf index0.html
 
 }
 
