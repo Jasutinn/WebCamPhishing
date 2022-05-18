@@ -63,4 +63,4 @@ sudo ./webcamphish.sh
 ## ©
 Copyright of Justine Dela Torre (Jasutin)
 ### This webcamphishing module/script is based only on my knowledge,
-### and please use this only on penetrating testing and educational purposes.
+### and please use this only on penetration testing and educational purposes.
