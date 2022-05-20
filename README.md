@@ -28,7 +28,7 @@ Bypassing camera on any device using a php server and javascript for client-side
 </ul>
 
 # Installing and requirements
-<p>Update and upgrade apt packages</p>
+<p>Update and upgrade packages</p>
 
 ```
 sudo apt update && sudo apt -y upgrade 
@@ -37,7 +37,7 @@ sudo apt update && sudo apt -y upgrade
 <p>This tool require PHP for webserver, SSH or Serveo link. First run following command on your terminal</p>
 
 ```
-sudo apt -y install php openssh git wget unzip
+sudo apt -y install php openssh git wget unzip gzip
 ```
 
 ## Follow the command to use the module/script:
