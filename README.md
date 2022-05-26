@@ -63,4 +63,4 @@ sudo ./webcamphish.sh
 ## ©
 * Copyright of Justine Dela Torre (Jasutin)
 
-**This webcamphishing module/script is based only on my knowledge, and please use this only on penetration testing and educational purposes.**
+<p>This WebCamPhishing module/script is based only on my knowledge, and please use this only on educational purposes and also WebCamPhishing is created to help in penetration testing and ethical hacking it's not responsible for any misuse or illegal purposes.</p>
