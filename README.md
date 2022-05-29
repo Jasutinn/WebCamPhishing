@@ -1,4 +1,4 @@
-# WebCamPhish
+<h1 align="center">WebCamPhishing</h1>
 * Version 1.5 [Beta]
 
 Bypassing camera on any device using a php server and javascript for client-side.
