@@ -24,9 +24,10 @@ printf "\n"
 
 clear
 
-printf "\n\t\t\t\t\t\e[1;31mHello $USER, You're currently using $SHELL\n\e[0m"
+printf "\n\n\n\n\n\n"
+printf "\n\t\t\e[1;31mHello $USER, You're currently using $SHELL\n\e[0m"
 
-printf "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t"
+printf "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t"
 
 printf "Ctrl + Z to disagree"
 
@@ -34,13 +35,13 @@ sleep 5
 
 clear
 
-printf "%*s\n\t\t\t\t\t\e[1;32mFramework loading, Might take a while...\e[0m"
+printf "%*s\n\t\t\t\e[1;32mFramework loading, Might take a while...\e[0m"
 
 sleep 2
 
 clear
 
-printf "\n\n\n\t\e[1;32mSTARTING...\e[0m"
+printf "\n\n\t\e[1;32mSTARTING...\e[0m"
 
 sleep 2
 
