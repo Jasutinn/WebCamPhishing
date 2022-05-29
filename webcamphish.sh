@@ -26,10 +26,9 @@ clear
 
 printf "\n\t\t\t\t\t\e[1;31mHello $USER, You're currently using $SHELL\n\e[0m"
 
-
 printf "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t"
 
-printf "Ctrl + Z to disagree
+printf "Ctrl + Z to disagree"
 
 sleep 5
 
