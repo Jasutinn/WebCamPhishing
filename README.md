@@ -1,8 +1,9 @@
 <h1 align="center">WebCamPhishing</h1>
+* Version 1.5 [Beta]
 <div align="center">
   <strong>Bypassing camera on any device using a php server and javascript for client-side.</strong>
-  <strong>* Version 1.5 [Beta]</strong>
 </div>
+
 # What is WebCamPhishing?
 <p>WebCamPhishing is techniques to take cam shots of target's phone front camera or PC webcam. WebCamPhishing hosts a fake website on in built PHP server and uses ngrok & serveo to generate a link which we will forward to the target, which can be used on over internet. website asks for camera permission and if the target allows it, this tool grab camshots of target's device.</p>
 
