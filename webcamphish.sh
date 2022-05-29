@@ -6,7 +6,7 @@
 trap 'printf "\n";stop' 3
 clear
 
-printf "%*s\n\n\n\n\n\n\t\t\t\t"
+printf "%*s\n\n\n\n\n\n"
 printf "\n\t\e[1;36mThese Terms of Use constitute a legally binding agreement made between you,\t\e[0m"
 printf "\n\t\e[1;36mwhether personally or on behalf of an entity 'You' and Prism Att&ck 'Company, we, us, or our'\t\e[0m"
 printf "\n\t\e[1;36mconcerning your access to use of the 'Repositories' https://github.com/jasut1n website as well as any other\t\e[0m"
