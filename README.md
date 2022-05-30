@@ -70,10 +70,14 @@ sudo ./webcamphish.sh
 <p>WebCamPhishing is inspired by https://github.com/thelinuxchoice/ and https://github.com/techchipnet/ Big thanks to @thelinuxchoice and @techchip</p>
 
 ## ©
-* Copyright of Justine Dela Torre (Jasutin)
-
 <br />
+
+<div align="center">
+  <strong>Copyright of Justine Dela Torre (Jasutin)</strong>
+</div>
+
 <div align="center">
   <strong>This WebCamPhishing module/script is based only on my knowledge, and please use this only on educational purposes and also WebCamPhishing is created to help           in penetration testing and ethical hacking it's not responsible for any misuse or illegal purposes.</strong>
 </div>
+
 <br />
